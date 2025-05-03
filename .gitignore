@@ -1,0 +1,25 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+
+# Ignore SQLite DBs (optional, unless you want it uploaded)
+*.db
+
+# Ignore Node modules
+frontend/node_modules/
+
+# Ignore build files
+frontend/build/
+frontend/.next/
+frontend/dist/
+
+# Ignore environment/config files
+.env
+.env.*
+
+# macOS & system junk
+.DS_Store
+Thumbs.db
